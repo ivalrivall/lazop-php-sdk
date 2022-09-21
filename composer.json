@@ -1,0 +1,19 @@
+{
+    "name": "ivalrivall/lazop-php-sdk",
+    "description": "Lazada Open API PHP SDK",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ivalrivall",
+            "email": "ivalrival95@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "files": [
+            "LazopSdk.php"
+        ]
+    }
+}
