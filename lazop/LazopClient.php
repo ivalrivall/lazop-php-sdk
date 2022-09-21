@@ -115,7 +115,7 @@ class LazopClient
 			curl_close($ch);
 			if (200 !== $httpStatusCode)
 			{
-				throw new Exception($reponse,$httpStatusCode);
+				throw new Exception($output,$httpStatusCode);
 			}
 		}
 
