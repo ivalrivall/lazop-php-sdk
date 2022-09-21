@@ -1,5 +1,5 @@
 # lazop-sdk
-Lazada Open API PHP SDK
+Lazada Open Platform PHP SDK (3rd party)
 
 #### Demo
 ```php

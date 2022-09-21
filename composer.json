@@ -3,6 +3,11 @@
     "description": "Lazada Open API PHP SDK",
     "license": "MIT",
     "type": "library",
+    "keywords": [
+        "lazada",
+        "openplatform",
+        "sdk"
+    ],
     "authors": [
         {
             "name": "ivalrivall",
@@ -10,11 +15,13 @@
         }
     ],
     "require": {
-        "php": ">=5.6.0"
+        "php": ">=5.6.0",
+        "ext-json": "*",
+        "ext-dom": "*",
+        "ext-simplexml": "*",
+        "guzzlehttp/guzzle": "7.0"
     },
     "autoload": {
-        "files": [
-            "LazopSdk.php"
-        ]
+        "psr-4": { "Lazada\\OpenPlatform\\" : "src/" }
     }
 }
