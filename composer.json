@@ -1,6 +1,7 @@
 {
     "name": "ivalrivall/lazop-php-sdk",
     "description": "Lazada Open API PHP SDK",
+    "license": "MIT",
     "type": "library",
     "authors": [
         {
